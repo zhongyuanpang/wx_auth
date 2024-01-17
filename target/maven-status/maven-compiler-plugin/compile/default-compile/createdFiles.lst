@@ -1,0 +1,3 @@
+com\hy\wx_auth\WxAuthApplication.class
+com\hy\wx_auth\auth\WxAuthService.class
+com\hy\wx_auth\auth\WxAuthController.class

@@ -1,0 +1,7 @@
+server:
+  port: 3527
+
+# 微信配置
+wx:
+  APP_ID: 你的AppID(小程序ID)
+  APP_SECRET: 你的AppSecret(小程序密钥)	

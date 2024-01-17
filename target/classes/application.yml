@@ -1,0 +1,7 @@
+server:
+  port: 3527
+
+# 微信配置
+wx:
+  APP_ID: wxb6cde29823f95584
+  APP_SECRET: d64d5941f18dd09564b1d50afa3bfae8
