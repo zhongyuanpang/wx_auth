@@ -4,7 +4,7 @@
 
 ## 获取微信头像、用户名
 
-```vue
+```html
 // 获取头像
 <button class="avatar-wrapper" open-type="chooseAvatar" @chooseavatar="onChooseAvatar">
     <image class="u-avatar" :src="avatarUrl || '../../static/head.png'"></image>
@@ -15,21 +15,21 @@
 ```
 
 ```js
-			/**
-			 * @param {Object} e
-			 * 获取头像
-			 */
-			onChooseAvatar(e) {
-				this.avatarUrl = e.detail.avatarUrl
-			},
+/**
+* @param {Object} e
+* 获取头像
+*/
+onChooseAvatar(e) {
+	this.avatarUrl = e.detail.avatarUrl
+},
 
-			/**
-			 * @param {Object} e
-			 * 获取用户名
-			 */
-			onBlur(e) {
-				this.nickName = e.detail.value
-			},
+/**
+* @param {Object} e
+* 获取用户名
+*/
+onBlur(e) {
+	this.nickName = e.detail.value
+},
 ```
 
 
@@ -42,7 +42,7 @@
 
 ## 获取手机号
 
-```vue
+```html
 <button open-type="getPhoneNumber" @getphonenumber="getPhoneNumber">获取手机号</button>
 ```
 
